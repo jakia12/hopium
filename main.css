@@ -895,7 +895,7 @@ p {
   display: flex;
   height: auto;
   padding-top: 4.9em;
-  padding-bottom: 4.9em;
+  /* padding-bottom: 4.9em; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3284,7 +3284,7 @@ p {
   }
 
   .about__wrapper {
-    padding-top: 5.3em;
+    padding-top: 3.3em;
   }
 
   .about__content {
@@ -3903,7 +3903,7 @@ p {
   }
 
   .about.is--desktop {
-    display: none;
+    /* display: none; */
   }
 
   .about.is--mobile {
@@ -3920,7 +3920,7 @@ p {
   }
 
   .about__wrapper {
-    padding-bottom: 5.9em;
+    padding-bottom: 0em;
   }
 
   .about__content {
@@ -4070,21 +4070,21 @@ p {
 
   .double__marquee__one {
     padding-top: 5.1em;
-    padding-bottom: 5.1em;
+    /* padding-bottom: 5.1em; */
   }
 
   .marquee__contain {
     bottom: -36px;
     -webkit-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
-    transform: rotate(14deg);
+    transform: rotate(15deg);
   }
 
   .marquee__contain.is--two {
-    top: -27px;
+    top: -70px;
     -webkit-transform: rotate(-23deg);
     -ms-transform: rotate(-23deg);
-    transform: rotate(-23deg);
+    transform: rotate(-15deg);
   }
 
   .cards__container {
